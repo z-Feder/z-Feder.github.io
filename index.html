@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="zFeder builds small ESO addons and tools for controller, HUD, and arena setups.">
-  <meta name="theme-color" content="#101418">
+  <meta name="description" content="zFeder builds independent ESO addons and practice tools for controller, HUD, and arena-focused PC players.">
+  <meta name="theme-color" content="#111314">
   <title>zFeder ESO Addons</title>
   <link rel="icon" href="zfeder-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
@@ -12,80 +12,129 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="zFeder ESO Addons home">
-      <img src="zfeder-logo.svg" alt="" width="40" height="40">
+      <img src="zfeder-logo.svg" alt="" width="38" height="38">
       <span>zFeder</span>
     </a>
     <nav aria-label="Main navigation">
-      <a href="#addons">Addons</a>
+      <a href="#projects">Projects</a>
+      <a href="#principles">Principles</a>
       <a href="#support">Support</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-inner">
-        <p class="eyebrow">ESO addon development</p>
-        <h1 id="hero-title">zFeder ESO Addons</h1>
+      <img class="hero-visual" src="assets/interface-preview.svg" alt="Stylized addon interface preview with controller, HUD, and arena panels.">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Independent ESO addon development</p>
+        <h1 id="hero-title">Cleaner tools for faster PC controller play.</h1>
         <p class="hero-copy">
-          Small Elder Scrolls Online addons and tools for controller, HUD, and arena setups.
+          zFeder builds focused Elder Scrolls Online addons for camera control, HUD clarity, and arena practice workflows.
         </p>
         <div class="hero-actions" aria-label="Primary links">
-          <a class="button primary" href="#addons">View Addons</a>
-          <a class="button secondary" href="#support">Support</a>
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="https://github.com/z-Feder/z-Feder.github.io">GitHub</a>
         </div>
       </div>
-      <div class="hero-panel" aria-label="Current focus">
-        <img src="zfeder-logo.svg" alt="" width="96" height="96">
-        <dl>
-          <div>
-            <dt>Focus</dt>
-            <dd>Controller tools</dd>
-          </div>
-          <div>
-            <dt>Platform</dt>
-            <dd>PC ESO addons</dd>
-          </div>
-          <div>
-            <dt>Status</dt>
-            <dd>Early testing</dd>
-          </div>
-        </dl>
+    </section>
+
+    <section class="stats-band" aria-label="Project focus">
+      <div>
+        <strong>PC</strong>
+        <span>ESO addons</span>
+      </div>
+      <div>
+        <strong>2.15</strong>
+        <span>default controller speed</span>
+      </div>
+      <div>
+        <strong>HUD</strong>
+        <span>deduplication first</span>
+      </div>
+      <div>
+        <strong>Tested</strong>
+        <span>with live gameplay setups</span>
       </div>
     </section>
 
-    <section class="section" id="addons" aria-labelledby="addons-title">
+    <section class="section" id="projects" aria-labelledby="projects-title">
       <div class="section-heading">
-        <p class="eyebrow">Projects</p>
-        <h2 id="addons-title">Addons</h2>
+        <p class="eyebrow">Current work</p>
+        <h2 id="projects-title">Focused addons, not UI clutter.</h2>
+        <p>
+          The project starts small: solve one real gameplay problem, make it configurable, then document exactly what the addon does.
+        </p>
       </div>
-      <div class="addon-grid">
-        <article class="addon-card">
-          <div class="addon-marker controller" aria-hidden="true"></div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="card-top">
+            <span class="status ready">Testing</span>
+            <span class="category">Controller</span>
+          </div>
           <h3>zFeder Gamepad Camera Boost</h3>
           <p>
-            Faster PC gamepad camera sensitivity using current X/Y gamepad camera settings and CVars.
+            Faster PC gamepad camera sensitivity using current X/Y gamepad camera settings and CVars, with a conservative 2.15 default.
           </p>
-          <p class="meta">Default sensitivity: 2.15</p>
+          <ul class="feature-list">
+            <li>Horizontal and vertical sensitivity support</li>
+            <li>LibAddonMenu settings plus chat fallback</li>
+            <li>Repeated apply loop for client resets</li>
+          </ul>
         </article>
-        <article class="addon-card">
-          <div class="addon-marker arena" aria-hidden="true"></div>
-          <h3>Maelstrom helper research</h3>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="status research">Research</span>
+            <span class="category">Arena</span>
+          </div>
+          <h3>Maelstrom Helper Research</h3>
           <p>
-            Experimental arena mapping, spawn learning, and marker research for cleaner practice runs.
+            Spawn learning, marker sizing, and practice-overlay experiments for clearer arena preparation.
           </p>
-          <p class="meta">Research phase</p>
+          <ul class="feature-list">
+            <li>Reticle-based passive learning concept</li>
+            <li>Stage-aware spawn anchors</li>
+            <li>Safe visual fallbacks for real combat</li>
+          </ul>
         </article>
       </div>
     </section>
 
-    <section class="section split" id="support" aria-labelledby="support-title">
+    <section class="section principles" id="principles" aria-labelledby="principles-title">
+      <div class="section-heading compact">
+        <p class="eyebrow">Design principles</p>
+        <h2 id="principles-title">Built around real play, not decoration.</h2>
+      </div>
+
+      <div class="principle-grid">
+        <article>
+          <span class="index">01</span>
+          <h3>One job per addon</h3>
+          <p>Each addon has a narrow purpose, clear settings, and avoids overlapping roles with existing tools.</p>
+        </article>
+        <article>
+          <span class="index">02</span>
+          <h3>Competitive readability</h3>
+          <p>Visual decisions prioritize scan speed, non-overlap, and information that matters during combat.</p>
+        </article>
+        <article>
+          <span class="index">03</span>
+          <h3>Transparent limits</h3>
+          <p>ESO API limits are documented so experimental ideas stay honest and maintainable.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section support" id="support" aria-labelledby="support-title">
       <div>
-        <p class="eyebrow">Optional</p>
-        <h2 id="support-title">Support</h2>
+        <p class="eyebrow">Support</p>
+        <h2 id="support-title">Optional support, cleanly separated.</h2>
       </div>
       <div class="support-copy">
         <p>
-          Support is completely optional and helps with testing, maintenance, and future development.
+          Support will help with testing, maintenance, and future addon development. The support page is being prepared separately from company work and branding.
         </p>
         <span class="button secondary" aria-disabled="true">Support page coming soon</span>
       </div>
