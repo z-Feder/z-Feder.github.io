@@ -18,7 +18,7 @@ if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
 git config user.name "z-Feder"
 git config user.email "waerter542@gmail.com"
 
-git add index.html styles.css README.md GITHUB_SETUP.md PUBLISH_TO_GITHUB.ps1 .nojekyll .gitignore .env.example assets/Logo_eso_addons.png assets/interface-preview.svg
+git add index.html styles.css README.md GITHUB_SETUP.md PUBLISH_TO_GITHUB.ps1 .nojekyll .gitignore .env.example assets/Logo_eso_addons_transparent.png assets/zfeder-icon-transparent.png assets/interface-preview.svg
 
 $status = git status --short
 if ($status) {

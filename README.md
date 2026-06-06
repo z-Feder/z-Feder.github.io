@@ -6,7 +6,8 @@ This repository is prepared for GitHub Pages. The static site is in the reposito
 
 - `index.html`
 - `styles.css`
-- `assets/Logo_eso_addons.png`
+- `assets/Logo_eso_addons_transparent.png`
+- `assets/zfeder-icon-transparent.png`
 
 ## Current Projects
 
