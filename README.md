@@ -18,7 +18,7 @@ This repository is prepared for GitHub Pages. The static site is in the reposito
 
 Support is completely optional and helps with testing, maintenance, and future development.
 
-Support page coming soon.
+Support page: https://www.buymeacoffee.com/zFeder
 
 ## Disclaimer
 
