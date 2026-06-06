@@ -64,8 +64,9 @@ img {
 
 .brand img {
   flex: 0 0 auto;
-  width: 190px;
+  width: 220px;
   height: auto;
+  display: block;
 }
 
 nav {
@@ -490,5 +491,5 @@ a.button:hover {
   }
 }
   .brand img {
-    width: 160px;
+    width: 178px;
   }
