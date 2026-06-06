@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">zFeder logo</title>
+  <desc id="desc">A compact zFeder lettermark for ESO addon pages.</desc>
+  <rect width="128" height="128" rx="18" fill="#101418"/>
+  <path d="M28 32h72L52 96h50" fill="none" stroke="#f7f4ec" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M82 25c8 14 9 28 3 42-5 12-15 21-29 27 2-15 6-29 13-41 4-8 9-17 13-28z" fill="#0e7c86"/>
+  <path d="M80 36c-5 14-11 29-19 45" fill="none" stroke="#f7f4ec" stroke-width="4" stroke-linecap="round"/>
+</svg>

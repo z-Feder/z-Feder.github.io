@@ -4,21 +4,21 @@ function Write-Info { param([string]$Message) Write-Host $Message -ForegroundCol
 function Write-Ok { param([string]$Message) Write-Host ("[OK] {0}" -f $Message) -ForegroundColor Green }
 function Write-Warn { param([string]$Message) Write-Host ("[WARNUNG] {0}" -f $Message) -ForegroundColor Yellow }
 
-$repoUrl = "https://github.com/zFederAddons/zFederAddons.github.io.git"
+$repoUrl = "https://github.com/z-Feder/z-Feder.github.io.git"
 
-Write-Info "Publishing zFederAddons GitHub Pages"
+Write-Info "Publishing zFeder GitHub Pages"
 Write-Host "This script does not create the GitHub account."
-Write-Host "Before running it, create and verify the GitHub account zFederAddons, then create the repository zFederAddons.github.io."
+Write-Host "Before running it, create and verify the GitHub account z-Feder, then create the repository z-Feder.github.io."
 Write-Host ""
 
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
     throw "Git is not installed or not available in PATH."
 }
 
-git config user.name "zFederAddons"
+git config user.name "z-Feder"
 git config user.email "waerter542@gmail.com"
 
-git add index.html styles.css README.md GITHUB_SETUP.md PUBLISH_TO_GITHUB.ps1 .nojekyll .gitignore .env.example assets/zfeder-logo.svg
+git add index.html styles.css README.md GITHUB_SETUP.md PUBLISH_TO_GITHUB.ps1 .nojekyll .gitignore .env.example zfeder-logo.svg
 
 $status = git status --short
 if ($status) {
@@ -40,5 +40,5 @@ if ($LASTEXITCODE -ne 0 -or -not $remote) {
 git branch -M main
 git push -u origin main
 
-Write-Ok "Published. GitHub Pages should become available shortly at https://zfederaddons.github.io"
+Write-Ok "Published. GitHub Pages should become available shortly at https://z-feder.github.io"
 

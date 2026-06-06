@@ -6,7 +6,7 @@ This repository is prepared for GitHub Pages. The static site is in the reposito
 
 - `index.html`
 - `styles.css`
-- `assets/zfeder-logo.svg`
+- `zfeder-logo.svg`
 
 ## Current Projects
 

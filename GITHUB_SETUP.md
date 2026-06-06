@@ -6,16 +6,16 @@ Use this when you are ready to publish the page.
 
 The GitHub username `zFeder` is already used by someone else.
 
-Recommended account name:
+Actual account name created on GitHub:
 
 ```text
-zFederAddons
+z-Feder
 ```
 
 Recommended repository name:
 
 ```text
-zFederAddons.github.io
+z-Feder.github.io
 ```
 
 Then upload all files from this folder into the repository root.
@@ -23,7 +23,7 @@ Then upload all files from this folder into the repository root.
 The public page will be:
 
 ```text
-https://zfederaddons.github.io
+https://z-feder.github.io
 ```
 
 If you choose a different GitHub username, use that exact username in the repository name:
@@ -37,13 +37,13 @@ YourGitHubName.github.io
 Use the GitHub Pages URL in Buy Me a Coffee:
 
 ```text
-https://zfederaddons.github.io
+https://z-feder.github.io
 ```
 
 ## Publish From This Folder
 
 After the GitHub account is created, the email is verified, and the repository
-`zFederAddons.github.io` exists, run:
+`z-Feder.github.io` exists, run:
 
 ```powershell
 .\PUBLISH_TO_GITHUB.ps1
