@@ -1,6 +1,6 @@
 # zFeder ESO Addons
 
-Small Elder Scrolls Online addons and tools for controller, HUD, and arena setups.
+Small Elder Scrolls Online addons and tools for cleaner UI, practical utility, setup management, arena practice, and PC gameplay workflows.
 
 This repository is prepared for GitHub Pages. The static site is in the repository root:
 
@@ -11,7 +11,7 @@ This repository is prepared for GitHub Pages. The static site is in the reposito
 ## Current Projects
 
 - zFeder Gamepad Camera Boost
-- Maelstrom helper research
+- HUD, utility, and arena research
 
 ## Support
 
