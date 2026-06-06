@@ -16,7 +16,7 @@ if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
 }
 
 git config user.name "zFederAddons"
-git config user.email "fuhr.lukas@gmail.com"
+git config user.email "waerter542@gmail.com"
 
 git add index.html styles.css README.md GITHUB_SETUP.md PUBLISH_TO_GITHUB.ps1 .nojekyll .gitignore .env.example assets/zfeder-logo.svg
 
@@ -41,3 +41,4 @@ git branch -M main
 git push -u origin main
 
 Write-Ok "Published. GitHub Pages should become available shortly at https://zfederaddons.github.io"
+
