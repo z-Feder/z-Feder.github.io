@@ -17,11 +17,7 @@ This repository is prepared for GitHub Pages. The static site is in the reposito
 
 Support is completely optional and helps with testing, maintenance, and future development.
 
-Placeholder:
-
-```text
-https://www.buymeacoffee.com/DEIN_NAME_HIER
-```
+Support page coming soon.
 
 ## Disclaimer
 

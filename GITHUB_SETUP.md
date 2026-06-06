@@ -54,8 +54,5 @@ into public files.
 
 ## Later
 
-After the Buy Me a Coffee page exists, replace this placeholder in `index.html` and addon READMEs:
-
-```text
-https://www.buymeacoffee.com/DEIN_NAME_HIER
-```
+After the Buy Me a Coffee page exists, replace the temporary support text in `index.html`
+and addon READMEs with the real support URL.
